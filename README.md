@@ -33,7 +33,7 @@ If a content file has a mistake (bad YAML indentation, a publication without a y
 
 ### Add a person
 
-Put a square-ish photo in `public/images/people/` (≈600×600 px JPG is plenty), then add an entry to the right group in `content/people.yaml`:
+Put a photo (JPG/PNG, any size) in `public/images/people/`; the build automatically crops it to a 400×400 centred square and compresses it to WebP, so you don't need to resize it yourself, then add an entry to the right group in `content/people.yaml`:
 
 ```yaml
       - name: Ada Lovelace
@@ -116,7 +116,7 @@ Research-area pages (the five whose slug matches `page:` in `research-areas.yaml
 
 ### Images
 
-Put files in `public/images/<folder>/` and reference them as `/images/<folder>/<file>`. Please keep photos under ~500 KB (resize to ≤1600 px wide; ≤640 px for headshots).
+Put files in `public/images/<folder>/` and reference them as `/images/<folder>/<file>`. Please keep photos under ~500 KB (resize to ≤1600 px wide). Headshots in `images/people/` are exempt: the build compresses them automatically (`content-plugin.ts`, `PHOTO_SIZE`).
 
 ---
 

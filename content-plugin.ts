@@ -79,8 +79,16 @@ function validate(rel: string, data: any, root: string) {
 let base = '/';
 const withBase = (p: string) => (base === '/' ? p : base.replace(/\/$/, '') + p);
 const ASSET = /^\/(images|fonts)\//;
+
+/** In production builds, headshots in public/images/people/ are resized + converted to WebP (see writeBundle). */
+export const PHOTO_DIR = 'images/people';
+export const PHOTO_SIZE = 400; // px, square; shown at ~150 CSS px, so this covers 2-3x screens
+const PHOTO_RE = /^\/images\/people\/(.+)\.(jpe?g|png)$/i;
+let optimizePhotos = false;
+const photoPath = (p: string) => (optimizePhotos ? p.replace(PHOTO_RE, '/images/people/$1.webp') : p);
+
 function baseAssets(v: any): any {
-  if (typeof v === 'string') return ASSET.test(v) ? withBase(v) : v;
+  if (typeof v === 'string') return ASSET.test(v) ? withBase(photoPath(v)) : v;
   if (Array.isArray(v)) return v.map(baseAssets);
   if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, baseAssets(x)]));
   return v;
@@ -89,11 +97,37 @@ const baseHtml = (html: string) => (base === '/' ? html : html.replace(/(\s(?:sr
 
 export default function content(): Plugin {
   let root = process.cwd();
+  let outDir = 'dist';
+  let isClientBuild = false;
   return {
     name: 'matterlab-content',
     configResolved(c) {
       root = c.root;
       base = c.base;
+      optimizePhotos = c.command === 'build';
+      isClientBuild = c.command === 'build' && !c.build.ssr;
+      outDir = path.resolve(c.root, c.build.outDir);
+    },
+    async writeBundle() {
+      if (!isClientBuild) return;
+      const dir = path.join(outDir, PHOTO_DIR);
+      if (!fs.existsSync(dir)) return;
+      const { default: sharp } = await import('sharp');
+      const files = fs.readdirSync(dir).filter((f) => /\.(jpe?g|png)$/i.test(f));
+      let before = 0;
+      let after = 0;
+      await Promise.all(
+        files.map(async (f) => {
+          const src = path.join(dir, f);
+          const dest = src.replace(/\.(jpe?g|png)$/i, '.webp');
+          before += fs.statSync(src).size;
+          await sharp(src).rotate().resize(PHOTO_SIZE, PHOTO_SIZE, { fit: 'cover', withoutEnlargement: true }).webp({ quality: 78 }).toFile(dest);
+          after += fs.statSync(dest).size;
+          fs.rmSync(src);
+        }),
+      );
+      const kb = (n: number) => `${Math.round(n / 1024)} KB`;
+      console.log(`Optimized ${files.length} people photos: ${kb(before)} -> ${kb(after)}`);
     },
     transform(src, id) {
       const file = id.split('?')[0];
