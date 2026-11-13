@@ -1,0 +1,13 @@
+# Home page content.
+hero:
+  - title: Our Mission
+    text: To accelerate the discovery of new chemicals and materials that are useful to society by means of new technologies such as quantum computing, machine learning, and automation.
+    image: /images/home/aspuru-guzik_group_photos_2025-48bf28.jpg
+research:
+  title: Our research
+  text: Our group works at the interface of theoretical chemistry with physics, computer science, and applied mathematics. In particular, we are interested in approaches that can be disruptive to the field. Click on a bubble to learn more about that research area.
+  button:
+    label: More about our research
+    url: /basic-content-page/research
+latestPublications: 6
+latestNews: 3

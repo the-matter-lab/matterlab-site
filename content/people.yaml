@@ -1,0 +1,419 @@
+# People page content.
+# - Add / remove / reorder people by editing the lists below; order here = order on the site.
+# - photo: put the image file in public/images/people/ and reference it as /images/people/<file>
+# - Emails are shown as name[at]domain on the site (light spam protection).
+title: People
+intro: |-
+  The Matter lab is a diverse and multidisciplinary group of researchers of different career stages and disciplines.
+
+  See our full constellation of alumni at [Matter.world](https://matterlab.world/)!
+groups:
+  - id: principal-investigators
+    title: Principal Investigators
+    members:
+      - name: Alán Aspuru-Guzik
+        email: aspuru@utoronto.ca
+        photo: /images/people/5f985961eebfa2b9038bb575_aspuru-guzik-guatto2-min-55e98c.jpeg
+        address:
+          - 421D - Lash Miller Chemical Laboratories
+          - 80 St. George Street
+          - Toronto, ON, M5S 3H6
+        areas:
+          - AI for discovery & self-driving labs
+          - Electronic structure methods
+          - Quantum computing
+          - Energy & functional materials
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=Ag_6KEgAAAAJ&hl=zh-CN
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/alanaspuru/
+      - name: Varinia Bernales
+        email: bernales@cs.utoronto.ca
+        photo: /images/people/bernales-varinia_5-10-2022-23j-png-86d52d.jpg
+        address:
+          - Sandford Fleming Building
+          - 10 King's College Rd
+          - Toronto, ON M5S 3H6
+        areas:
+          - AI FOR SCIENCE
+          - SELF-DRIVING LABS
+          - NEXT GEN MATERIALS
+          - ELECTRONIC STRUCTURE METHODS
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=IFE_CGgAAAAJ&hl=en
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/varinia-bernales-104206117
+  - id: staff
+    title: Staff
+    members:
+      - name: Angela Zhao
+        role: Group Administrative Assistant
+        email: aspuru.assistant@utoronto.ca
+        photo: /images/people/angela_headshot-3ac173.jpg
+        address:
+          - "Office: SF 3305"
+      - name: Irene Zúñiga
+        role: Senior Group Administrative Assistant
+        email: aspuru.exec@utoronto.ca
+        photo: /images/people/63877c68e59411c018ae7be7_dsc03748small-20-20irene-20zuniga-5c3580.jpeg
+        address:
+          - "Office: SF 3206"
+      - name: Jingbang Liang
+        role: Laboratory Technician and Coordinator
+        email: jingbang.liang@utoronto.ca
+        photo: /images/people/63595ebc4015708ba668d473_jingbang-20liang-66e8ff.jpeg
+        address:
+          - "Office: LM 421E"
+      - name: Mukesh Dodain
+        role: Research Group Coordinator
+        email: aspuru.admin@utoronto.ca
+        photo: /images/people/5f91bda10dbf76ecd37ba235_mukesh-20dodain_4-1-20-20mukesh-20d-8438c9.jpeg
+        address:
+          - "Office: SF 3305"
+  - id: postdocs
+    title: Postdocs
+    members:
+      - name: Juan Bernardo Perez Sanchez
+        email: juan.perez@utoronto.ca
+        photo: /images/people/juan-028db4.png
+        areas:
+          - AI for discovery & self-driving labs
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?hl=en&authuser=3&user=8_YttUQAAAAJ
+      - name: Jiaru Bai
+        email: jiaru.bai@utoronto.ca
+        photo: /images/people/d615f5eb98324adc98ab2e2dc50a134b_compressed-ce1a32.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.co.uk/citations?user=Sn71MO8AAAAJ&hl=en
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/jiaru-bai/
+      - name: Sven Papidocha
+        photo: /images/people/aspuru-guzik_group_photos_2025_098-c3527c.jpg
+        areas:
+          - AI for discovery & self-driving labs
+          - Organic Synthesis
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=ywgOVCcAAAAJ&hl=de
+      - name: Tsz Wai Ko (Kenko)
+        email: tszwai.ko@vectorinstitute.ai
+        photo: /images/people/kenko_headshot-ba285c.jpg
+        areas:
+          - Machine Learning for Atomistic Simulations
+        links:
+          - label: Personal website
+            url: https://kenko911.github.io/personal-website/
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=WE5THVoAAAAJ&hl=en&oi=ao
+      - name: Marcel Müller
+        email: marcel.mueller@utoronto.ca
+        photo: /images/people/accelerateconf-eatalysocial-andrewwilliamson-5007_linkedin_c-c77acd.jpg
+        areas:
+          - Electronic Structure Theory
+          - Protein-Ligand Docking
+          - Bayesian Optimization
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/marcel-m%C3%BCller-b23949193/
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=5D5d_9wAAAAJ&hl=en
+      - name: Jesus Valdes Hernandez
+        email: jesus.valdeshernandez@utoronto.ca
+        photo: /images/people/people_image-326f38.jpeg
+        areas:
+          - Materials Science
+          - Photonics/Optical Materials
+          - Self-Driving Labs
+          - Cryobiology
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/jesus-valdeshernandez
+      - name: Seongmin Kim
+        email: seongmin.kim@utoronto.ca
+        photo: /images/people/people_image-fabc22.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/seongmin-kim-91875039a
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=HXcbuWQAAAAJ
+      - name: Yoshihiro Ogura
+        email: yoshihiro.ogura@utoronto.ca
+        photo: /images/people/people_image-615353.jpeg
+        areas:
+          - AI for discovery & self-driving labs Organic Synthesis
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/yoshihiro-ogura
+          - label: Google Scholar
+            url: https://scholar.google.co.jp/citations?user=5Zo-Y6YAAAAJ&hl=en
+      - name: Felix Katzenburg
+        email: felix.katzenburg@utoronto.ca
+        photo: /images/people/people_image-9c1b77.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+          - Organic Synthesis
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/felix-katzenburg-8900b9225/
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=SmZMv5QAAAAJ&hl=en
+  - id: graduate-students
+    title: Graduate Students
+    members:
+      - name: Zijian Zhang
+        email: zi-jian@outlook.com
+        photo: /images/people/zijian_background-copy-2-3210a3.jpg
+        areas:
+          - Knowledge representation in AI
+          - Self-driving lab
+        links:
+          - label: Seeking investment!
+            url: https://www.treer.ai
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/zijian-zhang-uoft/
+      - name: Haozhe (Marko) Huang
+        email: marko@cs.toronto.edu
+        photo: /images/people/63726fe30a65a34a086dd447_profile_pic-20-20marko-20daffodil-792468.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+      - name: Stanley Lo
+        email: stanley.lo@mail.utoronto.ca
+        photo: /images/people/2025_10_headshot_unedited-76a5e4.jpg
+        areas:
+          - AI for discovery & self-driving labs
+          - Energy & functional materials
+        links:
+          - label: Stanley Lo
+            url: https://stanlo229.github.io/
+      - name: Luis Mantilla Calderon
+        email: luismantilla1999@gmail.com
+        photo: /images/people/650321362e0dea863c29420a_prof_pic-20-20luis-20carlos-20manti-cf4b19.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+          - Quantum computing
+        links:
+          - label: Personal Website
+            url: https://lui.so
+      - name: Pan Chen
+        email: panchen@cs.toronto.edu
+        photo: /images/people/66f1c27f81440e762db0a65e_panchen-a9f15d.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+        links:
+          - label: Pan Chen's Personal Website
+            url: https://www.panchen.ca
+      - name: Karthik Panicker
+        email: karthik.panicker@mail.utoronto.ca
+        photo: /images/people/66e0833c596d448772af56fb_dscf8293-1-20-20karthik-20panicker-ac34d4.jpeg
+        areas:
+          - Quantum computing
+      - name: Yunheng Zou
+        email: yunheng.zou@mail.utoronto.ca
+        photo: /images/people/66e0831c766e8ad4303773ef_profile-20photo-202_square3-20-20ja-90c4af.jpeg
+        areas:
+          - AI for discovery & self-driving labs
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/jackie-yunheng-zou/
+      - name: Yuchi(Allan) Zhao
+        email: allan.zhao@mail.utoronto.ca
+        photo: /images/people/yuchi-allan-_zhao_headshot-4e0785.jpg
+        areas:
+          - AI for discovery & self-driving labs
+      - name: Andreas Burger
+        email: andreas.burger@mail.utoronto.ca
+        photo: /images/people/672b96eaded1fa3a0e732e24_2ef880e9f3a14d02a9e7938fc936ccea_we-5bcb33.jpeg
+        areas:
+          - AI for discovery, Quantum Computing
+        links:
+          - label: website
+            url: http://andreas-burger.com
+      - name: Yuma Nakamura
+        email: yuma.nakamura@mail.utoronto.ca
+        photo: /images/people/5171af548fdd41068555ae0a949119e9_icon-29eda4.jpeg
+        areas:
+          - Quantum Computing
+          - Machine Learning
+          - Drug Discovery
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/yuma-nakamura-59978195/
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=CfIt8owAAAAJ&hl=en
+      - name: Manuel Sebastian Drehwald
+        email: manuel.drehwald@utoronto.ca
+        photo: /images/people/72587dbd98a04eda81aec50d82889100_manuel-9f147b.jpeg
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=eyzlJRYAAAAJ&hl=en
+      - name: Manav Ramprasad
+        email: manav@cs.toronto.edu
+        photo: /images/people/people_image-5fa6aa.jpeg
+        areas:
+          - Quantum Computing
+          - ML for Materials
+        links:
+          - label: Personal Website
+            url: https://manavramprasad.github.io
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=T46xE1sAAAAJ&hl=en
+      - name: Abhijoy Mandal
+        email: a.mandal@mail.utoronto.ca
+        photo: /images/people/people_image-113b93.jpeg
+        areas:
+          - Robotics
+          - AI for SDLs and Material Discovery
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.ca/citations?user=JBNWN4IAAAAJ&hl=en
+          - label: Linkedin
+            url: https://www.linkedin.com/in/abhijoy-mandal-7b77b718a/
+      - name: Haowei Lai
+        email: harvey.lai@mail.utoronto.ca
+        photo: /images/people/people_image-e98c58.jpeg
+        areas:
+          - Quantum Computing
+          - Quantum Machine Learning
+      - name: Carlos Jimenez Zepeda
+        email: carlos.jimenezzepeda@mail.utoronto.ca
+        photo: /images/people/people_image-8e9969.jpeg
+        areas:
+          - Quantum Computing
+          - Quantum Machine Learning
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/carlos-jimenez-zepeda
+      - name: Brandon Wong
+        email: brandonhy.wong@mail.utoronto.ca
+        photo: /images/people/dsc05541-38b046.jpg
+        areas:
+          - Machine Learning
+        links:
+          - label: Linkedin
+            url: https://www.linkedin.com/in/brandon-wong-731a48260/
+          - label: Google Scholar
+            url: https://scholar.google.ca/citations?user=ecUQPxgAAAAJ&hl=en&authuser=1
+      - name: Robert Gerstner
+        email: robert.gerstner@mail.utoronto.ca
+        photo: /images/people/people_image-865d8a.jpeg
+        areas:
+          - Machine Learning
+          - AI for Discovery
+          - Quantum Computing
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=TYEYABoAAAAJ&hl=en
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/robbie-gerstner-697018173?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+      - name: Ebad Noman
+        email: ebad.noman@mail.utoronto.ca
+        photo: /images/people/4fa70c2d-8316-414f-93d8-f365a5b9ee0c-67955c.jpeg
+        areas:
+          - MOFs for Organic Emitters
+          - Functional Coatings (Formulations)
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/muhammad-ebad-noman-2851a9174/
+      - name: Aiwei Yin
+        email: aiweiyin@cs.toronto.edu
+        photo: /images/people/98261d7c-7407-4d9c-a73d-5f20896eaada-1f5a1e.jpeg
+        areas:
+          - Agent Infrastructure
+          - Self Driving Labs
+        links:
+          - label: Personal Webpage
+            url: https://www.cs.toronto.edu/~aiweiyin/
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/aiwei-yin/
+      - name: Prabhav Desai
+        email: prabhav.desai@mail.utoronto.ca
+        photo: /images/people/7223d986-f876-4419-aa19-fbfbcef6da95-b2ddc5.jpeg
+        areas:
+          - Quantum Computing
+          - Quantum Information Science
+          - Machine Learning
+        links:
+          - label: Google Scholar
+            url: https://scholar.google.com/citations?user=C8sBWuEAAAAJ&hl=en
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/prabhav-desai
+alumni:
+  title: Alumni
+  categories:
+    - title: Postdoc
+      people:
+        - Ignacio Gustin
+        - Yeonghun Kang
+        - Ishrath Mohamed Irshadeen
+        - Mahdi Mazaheri
+        - Abdul Aldossary
+        - Leong Shi Xuan
+        - Davide Avagliano
+        - Changhyeok Choi
+        - Kouhei Nakaji
+        - Han Hao
+        - Yang Cao
+        - Sergio Pablo-García Carrillo
+        - Martin Seifrid
+        - Jorge Arturo Campos Gonzalez Angulo
+        - Mohammad Ghazi Vakili
+        - Christoph Gorgulla
+        - Mohsen Bagherimehrab
+        - Felix Strieth-Kalthoff
+        - Carlota Bozal-Ginesta
+        - Chong Sun
+        - Daniel Flam-Shepherd
+        - Zhenpeng Yao
+        - Tony Wu
+        - Jenya Vestfrid
+        - Robert Pollice
+        - Jose Dario Perea Ospina
+        - Luis Martin Mejia-Mendoza
+        - Alba Cervera Lierta
+        - Cyrille Lavigne
+        - Thi Ha Kyaw
+        - Mario Krenn
+        - Jakob Kottmann
+        - Kazuhiro Hotta
+        - Si Yue Guo
+        - Andrés Aguilar Granda
+        - Gabriel dos Passos Gomes
+        - Martha Flores
+        - Sagi Eppel
+        - Matthias Degroote
+        - Zamyla Morgan Chan
+        - Matteo Aldeghi
+    - title: Graduate students
+      people:
+        - Cher-Tian Ser
+        - Austin Cheng
+        - Sean Park
+        - Philipp Schleich
+        - Ella Miray Rajaonson
+        - Marta Skreta
+        - Andrew Wang
+        - Gary Tom
+        - Michael Lindner-D'Addario
+        - Edwin Yu
+        - Liam Fortier
+        - Matthew Choi
+        - Haoping Xu
+        - Teresa Tamayo
+        - Sukin (Hannah) Sim
+        - Tim Menke
+        - Douglas Mendoza
+        - Sai Govind Hari Kumar
+        - Phillip W. K. Jensen
+        - Riley Hickman
+        - Florian Hase
+        - Theophile Gaudin
+        - Abhinav Anand
+        - Sumner Alperin

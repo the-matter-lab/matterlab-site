@@ -1,0 +1,65 @@
+# Global site settings: name, navigation, footer.
+name: The Matter Lab
+group: Aspuru-Guzik and Bernales Group
+description: The Matter Lab at the University of Toronto accelerates the discovery of new chemicals and materials using quantum computing, machine learning, and automation.
+url: https://www.matter.toronto.edu
+
+# Top navigation. `children` creates a dropdown. Internal links start with "/".
+nav:
+  - label: About Alán
+    url: /basic-content-page/about-alan
+  - label: Contact Alán
+    url: /basic-content-page/contact-alan
+  - label: About Varinia
+    url: https://bernales.org
+  - label: People
+    url: /people
+  - label: Research
+    url: /basic-content-page/research
+    children:
+      - label: Quantum Computing
+        url: /basic-content-page/quantum-computing
+      - label: Energy and Functional Materials
+        url: /basic-content-page/energy-and-functional-materials
+      - label: AI for Discovery and Self-Driving Labs
+        url: /basic-content-page/ai-for-discovery-and-self-driving-labs
+      - label: Electronic Structure Methods
+        url: /basic-content-page/electronic-structure-methods
+      - label: Biophysics, Molecular Computers, and Other Topics
+        url: /basic-content-page/biophysics-molecular-computers-and-other-topics
+  - label: Publications
+    url: /publications
+  - label: News
+    url: /news
+  - label: Open Software & Data
+    url: /basic-content-page/open-software-data
+  - label: Open Positions
+    url: /basic-content-page/open-positions
+  - label: Social Media
+    url: /social-media
+
+footer:
+  title: Aspuru-Guzik and Bernales Group
+  address:
+    - University of Toronto
+    - Department of Computer Science & Department of Chemistry
+    - 80 St. George Street
+    - Toronto, ON, M5S 3H6
+  button:
+    label: How to contact Alán
+    url: /basic-content-page/contact-alan
+  social:
+    - label: Bluesky
+      url: https://bsky.app/profile/thematterlab.bsky.social
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/alanaspuru/
+    - label: GitHub
+      url: https://github.com/aspuru-guzik-group
+    - label: Substack
+      url: https://aspuru.substack.com/
+
+# Social media page
+social:
+  title: Social Media
+  intro: Follow the lab for the latest papers, talks and news.
+  bluesky: thematterlab.bsky.social

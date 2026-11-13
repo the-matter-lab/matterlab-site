@@ -1,0 +1,35 @@
+# The five research areas. Used for the home-page bubbles, the Research menu,
+# publication tags/filters and colours.
+#   id    : used by publications.yaml (`area:`) — don't rename without updating those
+#   page  : content/pages/<page>.md is the area's page
+#   color : accent colour for tags / bubbles
+- id: quantum-computing
+  title: Quantum Computing
+  label: quantum computing
+  color: "#02ceff"
+  icon: /images/areas/quantum.svg
+  page: quantum-computing
+- id: energy-and-functional-materials
+  title: Energy & Functional Materials
+  label: energy & functional materials
+  color: "#ff3f3c"
+  icon: /images/areas/energy.svg
+  page: energy-and-functional-materials
+- id: ai-for-discovery-and-self-driving-labs
+  title: AI for Discovery & Self-Driving Labs
+  label: ai for discovery & self-driving labs
+  color: "#ffeb00"
+  icon: /images/areas/ai.svg
+  page: ai-for-discovery-and-self-driving-labs
+- id: electronic-structure-methods
+  title: Electronic Structure Methods
+  label: electronic structure methods
+  color: "#12f98b"
+  icon: /images/areas/electronic.svg
+  page: electronic-structure-methods
+- id: biophysics-molecular-computers-and-other-topics
+  title: Biophysics, Molecular Computers & Other Topics
+  label: biophysics, molecular computers & other topics
+  color: "#ff4a96"
+  icon: /images/areas/biophysics.svg
+  page: biophysics-molecular-computers-and-other-topics
