@@ -111,18 +111,6 @@ groups:
             url: https://kenko911.github.io/personal-website/
           - label: Google Scholar
             url: https://scholar.google.com/citations?user=WE5THVoAAAAJ&hl=en&oi=ao
-      - name: Marcel Müller
-        email: marcel.mueller@utoronto.ca
-        photo: /images/people/accelerateconf-eatalysocial-andrewwilliamson-5007_linkedin_c-c77acd.jpg
-        areas:
-          - Electronic Structure Theory
-          - Protein-Ligand Docking
-          - Bayesian Optimization
-        links:
-          - label: LinkedIn
-            url: https://www.linkedin.com/in/marcel-m%C3%BCller-b23949193/
-          - label: Google Scholar
-            url: https://scholar.google.com/citations?user=5D5d_9wAAAAJ&hl=en
       - name: Jesus Valdes Hernandez
         email: jesus.valdeshernandez@utoronto.ca
         photo: /images/people/people_image-326f38.jpeg
@@ -168,17 +156,6 @@ groups:
   - id: graduate-students
     title: Graduate Students
     members:
-      - name: Zijian Zhang
-        email: zi-jian@outlook.com
-        photo: /images/people/zijian_background-copy-2-3210a3.jpg
-        areas:
-          - Knowledge representation in AI
-          - Self-driving lab
-        links:
-          - label: Seeking investment!
-            url: https://www.treer.ai
-          - label: LinkedIn
-            url: https://www.linkedin.com/in/zijian-zhang-uoft/
       - name: Haozhe (Marko) Huang
         email: marko@cs.toronto.edu
         photo: /images/people/63726fe30a65a34a086dd447_profile_pic-20-20marko-20daffodil-792468.jpeg
@@ -350,6 +327,7 @@ alumni:
   categories:
     - title: Postdoc
       people:
+        - Marcel Müller
         - Ignacio Gustin
         - Yeonghun Kang
         - Ishrath Mohamed Irshadeen
@@ -393,6 +371,7 @@ alumni:
         - Matteo Aldeghi
     - title: Graduate students
       people:
+        - Zijian Zhang
         - Cher-Tian Ser
         - Austin Cheng
         - Sean Park
